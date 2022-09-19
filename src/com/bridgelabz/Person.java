@@ -19,6 +19,11 @@ public class Person {
         this.zip = zip;
         this.phoneNum = phoneNum;
         this.email = email;
-
     }
+    public String toString() {
+        return "Person{" +  " firstName '" + firstName + '\'' + " ,lastName '" + lastName +'\'' + " ,address '" + address + '\'' +
+                " ,city ," + city +'\'' + ",state'" + state +'\'' + " ,zip '" + zip +'\'' + ",phoneNum'" + phoneNum + '\'' +
+                " ,email '" + email + '\'' + +'}';
+    }
+
 }
