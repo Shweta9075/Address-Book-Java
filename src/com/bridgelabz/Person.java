@@ -6,23 +6,27 @@ public class Person {
     String address;
     String city;
     String state;
-    String zip;
+    int zipCode;
     Long phoneNum;
     String email;
     Person(String firstName, String lastName, String address,
-           String city, String state, String zip, Long phoneNum, String email){
+           String city, String state, int zipCode, Long phoneNum, String email){
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
         this.city = city;
         this.state = state;
-        this.zip = zip;
+        this.zipCode = zipCode;
         this.phoneNum = phoneNum;
         this.email = email;
     }
+
+    public Person(String firstName, String lastName, String address, String city, String state, int zipCode, long phoneNum) {
+    }
+
     public String toString() {
         return "Person{" +  " firstName '" + firstName + '\'' + " ,lastName '" + lastName +'\'' + " ,address '" + address + '\'' +
-                " ,city ," + city +'\'' + ",state'" + state +'\'' + " ,zip '" + zip +'\'' + ",phoneNum'" + phoneNum + '\'' +
+                " ,city ," + city +'\'' + ",state'" + state +'\'' + " ,zipCode '" + zipCode +'\'' + ",phoneNum'" + phoneNum + '\'' +
                 " ,email '" + email + '\'' + +'}';
     }
 
