@@ -26,7 +26,7 @@ public class Person {
 
     public String toString() {
         return "Person{" +  " firstName '" + firstName + '\'' + " ,lastName '" + lastName +'\'' + " ,address '" + address + '\'' +
-                " ,city ," + city +'\'' + ",state'" + state +'\'' + " ,zipCode '" + zipCode +'\'' + ",phoneNum'" + phoneNum + '\'' +
+                " ,city '" + city +'\'' + ",state'" + state +'\'' + " ,zipCode '" + zipCode +'\'' + ",phoneNum'" + phoneNum + '\'' +
                 " ,email '" + email + '\'' + +'}';
     }
 
